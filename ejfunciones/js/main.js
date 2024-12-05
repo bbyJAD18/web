@@ -54,11 +54,6 @@ const deportes = ["futbol", "tenis", "padel"];
 console.log(minusToMayus(deportes));
 
 //5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario
-function numPrimo() {
-    if () {
-        
-    }
-}
 
 //6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos
 
@@ -79,9 +74,12 @@ console.log(numCuadrado(numeros));
 
 //9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
 function text() {
-    const texto = ("hola, cosa, nunca, vez");
-    texto.reverse();
+    const fraseSeparada = [miFrase.split()];
+    const fraseInversaSeparada = [fraseSeparada.reverse()];
+    const fraseInversaJunta = [fraseInversaSeparada.join()];
 }
+const miFrase = ("Este fin de semana hay puente");
+console.log(fraseInversaSeparada);
 
 //10. Crea una función que calcule el factorial de un número dado
 function factorial(n) {
