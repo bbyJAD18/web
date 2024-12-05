@@ -46,7 +46,7 @@ function minusToMayus(lista) {
     const mayus = [];
     for (let i = 0; i < lista.length; i++) {
         const element = lista[i]; 
-        mayus.push (element.toUpperCase()); 
+        mayus.push(element.toUpperCase()); 
     }
     return mayus;
 }
@@ -54,8 +54,8 @@ const deportes = ["futbol", "tenis", "padel"];
 console.log(minusToMayus(deportes));
 
 //5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario
-function numPrimo(number) {
-    if (number) {
+function numPrimo() {
+    if () {
         
     }
 }
@@ -69,6 +69,18 @@ function nums() {
     const myArr = [1, 2, 3, 4, 5, 6];
     const newArr = myArr.flatMap(x => [x, x ^ 2]);
 }
+
+function numCuadrado(list) {
+    const number = [];
+    for (let i = 0; i < list.length; i++) {
+        const element = list[i];
+        const cuadrado = element ^ element;
+        number.push (cuadrado);
+    }
+    return number;
+}
+const numeros = [1, 3, 78, 90];
+console.log(numCuadrado(numeros));
 
 //9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
 function text() {
