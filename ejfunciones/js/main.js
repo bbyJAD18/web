@@ -65,11 +65,6 @@ function numPrimo() {
 //7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
 
 //8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
-function nums() {
-    const myArr = [1, 2, 3, 4, 5, 6];
-    const newArr = myArr.flatMap(x => [x, x ^ 2]);
-}
-
 function numCuadrado(list) {
     const number = [];
     for (let i = 0; i < list.length; i++) {
