@@ -24,3 +24,5 @@ function imprimirInfo(producto) {
         console.log(color);
     }
 }
+imprimirInfo(producto);
+//Hacer una copia de un objeto

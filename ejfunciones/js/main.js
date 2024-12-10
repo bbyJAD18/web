@@ -87,7 +87,9 @@ function sumaPares() {
     const numeritos = [];
     for (let i = 0; i < numeritos.length; i++) {
         const element = numeritos[i];
-        
+        if (numeritos /2 % === 0) {
+            return numeritos + numeritos
+        }
     }
 }
 
@@ -96,7 +98,7 @@ function numCuadrado(list) {
     const number = [];
     for (let i = 0; i < list.length; i++) {
         const element = list[i];
-        const cuadrado = element ^ element;
+        const cuadrado = element * element;
         number.push (cuadrado);
     }
     return number;
